@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57424831.css",
+    "main.js": "/static/js/main.c98b87f0.js",
+    "static/media/hero-doberman.jpg": "/static/media/hero-doberman.1af6cb6b73db3e2588ab.jpg",
+    "static/media/aboutImage1.jpg": "/static/media/aboutImage1.a2786151bb6d1416e9a0.jpg",
+    "static/media/kid.jpg": "/static/media/kid.bae251491707d1e0ccd1.jpg",
+    "static/media/Father.jpg": "/static/media/Father.cfb59dfced19cd5b84a9.jpg",
+    "static/media/Mother.jpg": "/static/media/Mother.e56b9e0947f677203c24.jpg",
+    "static/media/logo.png": "/static/media/logo.f6fc6dc92fdead689758.png",
+    "static/media/aboutImage2.jpg": "/static/media/aboutImage2.1f421ab93dd590305cb6.jpg",
+    "index.html": "/index.html",
+    "main.57424831.css.map": "/static/css/main.57424831.css.map",
+    "main.c98b87f0.js.map": "/static/js/main.c98b87f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57424831.css",
+    "static/js/main.c98b87f0.js"
+  ]
+}
