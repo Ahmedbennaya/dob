@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Navbar Styling */
+  .navbar {
+    @apply bg-gray-950 bg-opacity-90 fixed w-full shadow-md p-4 transition duration-300;
+  }
+
+  .navbar a {
+    @apply text-white font-medium hover:text-gray-400 transition duration-300;
+  }
+
+  /* Hero Section */
+  .hero {
+    @apply relative h-screen flex items-center justify-center text-center;
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0 bg-black bg-opacity-50;
+  }
+
+  .hero-title {
+    @apply text-5xl md:text-6xl font-extrabold text-white drop-shadow-md;
+  }
+
+  .hero-text {
+    @apply text-lg md:text-xl text-gray-200 mt-4 max-w-2xl mx-auto drop-shadow-md;
+  }
+
+  .hero-button {
+    @apply bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-lg mt-6;
+  }
+
+  /* Sections */
+  .section {
+    @apply py-16 px-6 text-center;
+  }
+
+  .section-dark {
+    @apply bg-gray-800 text-white;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6;
+  }
+
+  .section-text {
+    @apply text-lg md:text-xl max-w-2xl mx-auto;
+  }
+
+  .section-button {
+    @apply bg-blue-600 hover:bg-blue-500 text-white font-medium py-2 px-4 rounded transition duration-300;
+  }
+
+  /* Social Links */
+  .social-links a {
+    @apply text-blue-400 hover:text-blue-300 text-lg transition duration-300;
+  }
+
+  /* Footer */
+  .footer {
+    @apply bg-gray-800 text-gray-300 text-center py-4 text-sm;
+  }
+}

@@ -1,0 +1,17 @@
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+
+export const SIGNUP_REQUEST = 'SIGNUP_REQUEST';
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
+export const SIGNUP_FAIL = 'SIGNUP_FAIL';
+
+export const FETCH_PUPPIES = 'FETCH_PUPPIES';
+export const ADD_PUPPY = 'ADD_PUPPY';
+export const UPDATE_PUPPY = 'UPDATE_PUPPY';
+export const DELETE_PUPPY = 'DELETE_PUPPY';
+
+export const FETCH_TESTIMONIALS = 'FETCH_TESTIMONIALS';
+export const ADD_TESTIMONIAL = 'ADD_TESTIMONIAL';
+export const DELETE_TESTIMONIAL = 'DELETE_TESTIMONIAL';
