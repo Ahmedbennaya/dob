@@ -1,0 +1,6 @@
+[build]
+command = "cd frontend && npm install && npm run build"
+publish = "frontend/build"
+
+[build.environment]
+GO_VERSION = "1.20"  # Only if your project actually needs Go
